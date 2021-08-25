@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 5998478496966427923}
   - component: {fileID: 5998478496966427920}
   - component: {fileID: 5998478496966427933}
-  - component: {fileID: 5998478496966427922}
   m_Layer: 0
   m_Name: "\u5C0F\u6050\u9F8D"
   m_TagString: Untagged
@@ -51,6 +50,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -239,24 +239,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &5998478496966427922
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5998478496966427924}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4bb0881e6b5536c46a79ed05a492fe5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 550
-  jump: 600
-  v2GroundOffset: {x: 0, y: 0, z: 0}
-  radiusGround: 0.2
-  soundJump: {fileID: 8300000, guid: 7f099ae3678e25c428cb8f34a213e36d, type: 3}
-  soundLand: {fileID: 8300000, guid: a8fc8aa3b8a47a64eb48bee46c9847dc, type: 3}
-  soundChest: {fileID: 8300000, guid: 43a1abca5f6839c40b2246c31d998b70, type: 3}
-  soundPass: {fileID: 8300000, guid: 21839c85151ed53408ff6cda20248b2c, type: 3}
-  soundDead: {fileID: 8300000, guid: b20eff100831827498294d4bc57c9388, type: 3}
